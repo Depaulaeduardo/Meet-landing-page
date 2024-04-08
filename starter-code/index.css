@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 119px;
+  margin: 48px 118px;
+}
+
+.people-pic img {
+  width: 414px;
+  margin-bottom: 48px;
+}
+
+.intro-section {
+  margin: 0 24px 64px 24px;
+  text-align: center;
+}
+
+.intro-heading {
+  font-family: "Red Hat Display", sans-serif;
+  color: #28283d;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 0 28px 0 28px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.main-paragraph {
+  font-size: 16px;
+  color: #87879d;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.download-button {
+  background: #4d96a9;
+  border-radius: 40px;
+  width: 193px;
+  height: 58px;
+  padding: 16px 40px;
+  margin-left: 67px;
+}
+
+.download-button button {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+}
+
+.download-button span {
+  color: #8fe3f9;
+}
+
+.learn-more-button {
+  background: #855fb1;
+  border-radius: 40px;
+  width: 139px;
+  height: 58px;
+  padding: 16px 29px;
+  margin-left: 94px;
+}
+
+.learn-more-button button {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+}
+
+.people-pic-online {
+  width: 375px;
+
+  padding: 64px 24px;
+}
+
+.first-pic {
+  width: 151px;
+  height: 143px;
+  border-radius: 8px;
+  margin-right: 21px;
+  margin-bottom: 24px;
+}
+
+.second-pic {
+  width: 151px;
+  height: 143px;
+  border-radius: 8px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.third-pic {
+  height: 143px;
+  width: 151px;
+  border-radius: 8px;
+  margin-right: 21px;
+}
+
+.fourth-pic {
+  height: 143px;
+  width: 151px;
+  border-radius: 8px;
+}
+
+.features-two {
+  text-align: center;
+  padding: 0 24px;
+}
+
+.features-two h2 {
+  color: #4d96a9;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.features-two h1 {
+  color: #28283d;
+  font-size: 32px;
+  margin: 0 5px 32px 5px;
+  font-weight: 900;
+}
+
+.features-two p {
+  color: #87879d;
+  font-size: 16px;
+  margin: 0 7px 64px 7px;
+  line-height: 1.5;
+}
+
+.features-three {
+  background-image: url(./assets/mobile/image-footer.jpg);
+  background-size: 375px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+ 
+}
+
+.features-three {
+  padding: 92px 0 72px 0;
+  background-color: #4d96a9;
+  position: relative;
+
+}
+
+.features-three h1 {
+  font-size: 32px;
+  color: #fafafa;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.features-three p {
+  font-size: 18px;
+  margin: 0 24px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.features-button {
+  background: #855fb1;
+  border-radius: 40px;
+  width: 193px;
+  height: 58px;
+  padding: 16px 40px;
+  margin: 0 92px 0 92px;
+}
+
+.features-button button {
+  color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+}
+
+.features-button span {
+  color: #d9b8ff;
+}
+
+.bottom-pic img {
+  width: 375px;
+  position: absolute;
+}
