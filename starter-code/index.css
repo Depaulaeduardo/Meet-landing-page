@@ -11,6 +11,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   justify-content: center;
   align-items: center;
+  
 }
 
 .logo img {
@@ -85,6 +86,33 @@ body {
   border: none;
 }
 
+
+.section-online-vertical {
+  height: 84px;
+  border-left: 0.5px solid #D8D8D8;
+
+}
+.section-people-online {
+  border-radius:  50%;
+  border: 0.5px solid  #D8D8D8;
+   
+   
+  width: 56px;
+  height: 56px;
+  color: #28283d ;
+   padding: 15px 0;
+  text-align: center;
+}
+
+
+.section-people-online p {
+  font-weight: 900;
+  font-size: 16px;
+  color: #87879D;
+  width: 56px;
+  height: 56px;
+
+}
 .people-pic-online {
   width: 375px;
 
@@ -148,21 +176,53 @@ body {
   line-height: 1.5;
 }
 
-.features-three {
-  background-image: url(./assets/mobile/image-footer.jpg);
-  background-size: 375px;
-  position: absolute;
-  background-repeat: no-repeat;
-  z-index: -1;
+ 
+.section-two-linha-vertical {
+  height: 84px;
+  border-left: 0.5px solid #D8D8D8;
  
 }
 
+.section-experience {
+  border-radius:  50%;
+  border: 0.5px solid  #D8D8D8;
+   
+   
+  width: 56px;
+  height: 56px;
+  color: #28283d ;
+   padding: 15px 0;
+  text-align: center;
+
+  
+   
+}
+
+ 
+.section-experience p {
+  font-weight: 900;
+  font-size: 16px;
+  color: #87879D;
+  width: 56px;
+  height: 56px;
+   
+}
+
 .features-three {
-  padding: 92px 0 72px 0;
-  background-color: #4d96a9;
-  position: relative;
+  width: 375px;
+  margin: 0;
 
 }
+.features-three {
+  background-image: url(./assets/mobile/Bitmap.png);
+ 
+  padding: 92px 0 72px 0;
+  margin: 0;
+}
+
+ 
+
+ 
 
 .features-three h1 {
   font-size: 32px;
