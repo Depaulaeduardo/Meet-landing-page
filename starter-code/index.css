@@ -87,12 +87,12 @@ body {
 }
 
 
-.section-online-vertical {
+.number-one-vertical-line {
   height: 84px;
   border-left: 0.5px solid #D8D8D8;
 
 }
-.section-people-online {
+.section-one-people-online {
   border-radius:  50%;
   border: 0.5px solid  #D8D8D8;
    
@@ -177,22 +177,24 @@ body {
 }
 
  
-.section-two-linha-vertical {
+.number-two-vertical-line {
   height: 84px;
   border-left: 0.5px solid #D8D8D8;
  
 }
 
-.section-experience {
+.section-number-two-experience {
   border-radius:  50%;
   border: 0.5px solid  #D8D8D8;
-   
+
+   background-color: #FAFAFA;
    
   width: 56px;
   height: 56px;
   color: #28283d ;
    padding: 15px 0;
   text-align: center;
+  margin-bottom: -28px;
 
   
    
@@ -205,12 +207,15 @@ body {
   color: #87879D;
   width: 56px;
   height: 56px;
+ 
    
 }
 
 .features-three {
   width: 375px;
   margin: 0;
+  
+  
 
 }
 .features-three {
@@ -218,6 +223,11 @@ body {
  
   padding: 92px 0 72px 0;
   margin: 0;
+  
+  z-index: -1;
+  
+   
+  
 }
 
  
