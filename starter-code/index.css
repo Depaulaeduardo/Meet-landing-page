@@ -11,7 +11,6 @@ body {
   font-family: "Red Hat Display", sans-serif;
   justify-content: center;
   align-items: center;
-  
 }
 
 .logo img {
@@ -27,6 +26,7 @@ body {
 .intro-section {
   margin: 0 24px 64px 24px;
   text-align: center;
+  justify-content: center;
 }
 
 .intro-heading {
@@ -46,22 +46,22 @@ body {
   margin-bottom: 32px;
 }
 
+.buttoms {
+  padding: 0;
+}
+
 .download-button {
   background: #4d96a9;
   border-radius: 40px;
   width: 193px;
   height: 58px;
   padding: 16px 40px;
-  margin-left: 67px;
-}
 
-.download-button button {
+  border: none;
   color: #ffffff;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  background: transparent;
-  border: none;
 }
 
 .download-button span {
@@ -74,52 +74,46 @@ body {
   width: 139px;
   height: 58px;
   padding: 16px 29px;
-  margin-left: 94px;
-}
 
-.learn-more-button button {
+  margin-top: 16px;
+  border: none;
   color: #ffffff;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  background: transparent;
-  border: none;
 }
-
 
 .number-one-vertical-line {
   height: 84px;
-  border-left: 0.5px solid #D8D8D8;
-
+  border-left: 0.5px solid #d8d8d8;
 }
 .section-one-people-online {
-  border-radius:  50%;
-  border: 0.5px solid  #D8D8D8;
-   
-   
+  border-radius: 50%;
+  border: 0.5px solid #d8d8d8;
+
   width: 56px;
   height: 56px;
-  color: #28283d ;
-   padding: 15px 0;
+  color: #28283d;
+  padding: 15px 0;
   text-align: center;
 }
-
 
 .section-people-online p {
   font-weight: 900;
   font-size: 16px;
-  color: #87879D;
+  color: #87879d;
   width: 56px;
   height: 56px;
-
 }
 .people-pic-online {
+  display: flex;
+  flex-wrap: wrap;
   width: 375px;
 
   padding: 64px 24px;
 }
 
-.first-pic {
+.first-pic img {
   width: 151px;
   height: 143px;
   border-radius: 8px;
@@ -127,7 +121,7 @@ body {
   margin-bottom: 24px;
 }
 
-.second-pic {
+.second-pic img {
   width: 151px;
   height: 143px;
   border-radius: 8px;
@@ -135,14 +129,14 @@ body {
   margin-bottom: 24px;
 }
 
-.third-pic {
+.third-pic img {
   height: 143px;
   width: 151px;
   border-radius: 8px;
   margin-right: 21px;
 }
 
-.fourth-pic {
+.fourth-pic img {
   height: 143px;
   width: 151px;
   border-radius: 8px;
@@ -176,63 +170,45 @@ body {
   line-height: 1.5;
 }
 
- 
 .number-two-vertical-line {
   height: 84px;
-  border-left: 0.5px solid #D8D8D8;
- 
+  border-left: 0.5px solid #d8d8d8;
 }
 
 .section-number-two-experience {
-  border-radius:  50%;
-  border: 0.5px solid  #D8D8D8;
+  border-radius: 50%;
+  border: 0.5px solid #d8d8d8;
 
-   background-color: #FAFAFA;
-   
+  background-color: #fafafa;
+
   width: 56px;
   height: 56px;
-  color: #28283d ;
-   padding: 15px 0;
+  color: #28283d;
+  padding: 15px 0;
   text-align: center;
   margin-bottom: -28px;
-
-  
-   
 }
 
- 
 .section-experience p {
   font-weight: 900;
   font-size: 16px;
-  color: #87879D;
+  color: #87879d;
   width: 56px;
   height: 56px;
- 
-   
 }
 
 .features-three {
   width: 375px;
   margin: 0;
-  
-  
-
 }
 .features-three {
   background-image: url(./assets/mobile/Bitmap.png);
- 
+  background-repeat: no-repeat;
   padding: 92px 0 72px 0;
   margin: 0;
-  
+
   z-index: -1;
-  
-   
-  
 }
-
- 
-
- 
 
 .features-three h1 {
   font-size: 32px;
@@ -276,4 +252,84 @@ body {
 .bottom-pic img {
   width: 375px;
   position: absolute;
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) {
+  .people-pic img {
+    width: 100vw;
+  }
+
+  .intro-section {
+    width: 475px;
+    height: auto;
+  }
+
+  .intro-heading {
+    font-size: 48px;
+  }
+
+  .main-paragraph {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .bottoms {
+    display: flex;
+  }
+
+  .download-button {
+    margin-right: 16px;
+  }
+
+  .learn-more-button {
+    margin: 0;
+  }
+
+  .people-pic-online {
+    width: auto;
+    padding: 67px 40px 48px 39px;
+    gap: 11px;
+  }
+
+  .people-pic-online img {
+    width: 164px;
+    height: auto;
+    margin: 0;
+  }
+
+  .features-two {
+    width: 555px;
+    padding: 0;
+  }
+  .features-two h1 {
+    font-size: 40px;
+    padding: 0 40px;
+  }
+
+  .features-two p {
+    text-align: center;
+    margin: 0;
+  }
+
+  .features-three {
+    background-image: url(./assets/tablet/Bitmap.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+  }
+
+  .features-three h1 {
+    padding: 0 192px;
+    font-size: 40px;
+  }
+
+  .features-three p {
+    padding: 0 85px;
+    font-size: 18px;
+  }
+
+  .features-three .features-button {
+    margin: 0 288px;
+  }
 }
