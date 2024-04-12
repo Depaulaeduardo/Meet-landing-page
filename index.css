@@ -202,7 +202,7 @@ body {
   margin: 0;
 }
 .features-three {
-  background-image: url(./assets/mobile/Bitmap.png);
+  background-image: url(./starter-code/assets/mobile/Bitmap.png);
   background-repeat: no-repeat;
   padding: 92px 0 72px 0;
   margin: 0;
@@ -264,6 +264,7 @@ body {
   .intro-section {
     width: 475px;
     height: auto;
+    margin-left: 155px;
   }
 
   .intro-heading {
@@ -314,7 +315,7 @@ body {
   }
 
   .features-three {
-    background-image: url(./assets/tablet/Bitmap.png);
+    background-image: url(./starter-code/assets/tablet/Bitmap.png);
     width: 100vw;
     background-repeat: no-repeat;
   }
@@ -331,5 +332,130 @@ body {
 
   .features-three .features-button {
     margin: 0 288px;
+  }
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1224px)   {
+
+ 
+  .people-pic img {
+    display: none;
+  }
+
+  .head-page-desktop {
+    width: 1504px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .head-page-desktop .people-pic {
+    content: url(./starter-code/assets/desktop/image-hero-left.png);
+  }
+
+  .intro-section {
+    margin: 0;
+    align-self: flex-end;
+  }
+  .intro-heading {
+    font-size: 64px;
+  }
+
+  .main-paragraph {
+    font-size: 18px;
+  }
+
+  .people-pic-right {
+    content: url(./starter-code/assets/desktop/image-hero-right.png);
+
+    justify-content: flex-end;
+  }
+
+  .people-pic-online {
+    width: 100vw;
+    justify-content: space-around;
+    padding: 64px 165px 80px 165px;
+  }
+
+  .people-pic-online .first-pic img{
+    width: 255px;
+  }
+
+  .people-pic-online .second-pic img{
+    width: 255px;
+
+  }
+
+  .people-pic-online .third-pic img{
+    width: 255px;
+  }
+
+  .people-pic-online .fourth-pic img{
+    width: 255px;
+  }
+
+  .features-two {
+    margin: 0;
+  }
+
+  .features-two p {
+    width: 540px;
+    font-size: 18px;
+  }
+
+  .features-three {
+    background-image: url(./starter-code/assets/desktop/Bitmap.png);
+     
+    background-repeat: no-repeat;
+    
+    border: 1px solid blue;
+  }
+
+ 
+  .features-three   {
+    display: flex;
+    width: 100vw;
+   height: auto;
+    padding: 116px 165px 104px 165px;
+    
+    align-items: center;
+     
+   
+   
+  }
+
+  .features-three h1 {
+    padding: 0;
+    text-align: left;
+    margin-right: 125px;
+    width: 350px;
+  }
+
+  .features-three p {
+    padding: 0;
+    text-align: left;
+    width: 350px;
+    margin-right: 92px;
+    margin-left: 0;
+    
+
+  }
+
+  .features-three .features-button {
+   margin: 0;
+   padding: 0;
+    
+   
+   
+  }
+
+ 
+
+  .features-three .features-button button {
+    width: 193px ;
+   height: 58px;
+
   }
 }
