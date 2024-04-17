@@ -14,17 +14,17 @@ body {
 }
 
 .logo img {
-  width: 119px;
-  margin: 48px 118px;
+  width: 7.4375rem;
+  margin: 3rem 7.375rem;
 }
 
 .people-pic img {
-  width: 414px;
-  margin-bottom: 48px;
+  width: 25.875rem;
+  margin-bottom: 3rem;
 }
 
 .intro-section {
-  margin: 0 24px 64px 24px;
+  margin: 0 1.5rem 4rem 24px;
   text-align: center;
   justify-content: center;
 }
@@ -32,179 +32,191 @@ body {
 .intro-heading {
   font-family: "Red Hat Display", sans-serif;
   color: #28283d;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 900;
-  padding: 0 28px 0 28px;
+  padding: 0 1.75rem 0 28px;
   line-height: 1;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .main-paragraph {
-  font-size: 16px;
+  font-size: 1rem;
   color: #87879d;
   line-height: 1.5;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
-.buttoms {
+.btn {
   padding: 0;
+ 
 }
 
-.download-button {
+.download-btn {
   background: #4d96a9;
-  border-radius: 40px;
-  width: 193px;
-  height: 58px;
-  padding: 16px 40px;
+  border-radius: 2.5rem;
+  width: 12.0625rem;
+  height: 3.625rem;
+  padding: 1rem 2.5rem;
 
   border: none;
   color: #ffffff;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
-.download-button span {
+.download-btn span {
   color: #8fe3f9;
 }
 
-.learn-more-button {
-  background: #855fb1;
-  border-radius: 40px;
-  width: 139px;
-  height: 58px;
-  padding: 16px 29px;
+.btn-learn-more {
+  
 
-  margin-top: 16px;
+  
+  background-color: transparent;
+  
+
+}
+
+.learn-more-btn {
+  background: #855fb1;
+  border-radius: 2.5rem;
+  width: 8.6875rem;
+  height: 3.625rem;
+  padding: 0.25rem;
+  margin-top: 1rem;
   border: none;
   color: #ffffff;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
+ 
+
 }
 
 .number-one-vertical-line {
-  height: 84px;
-  border-left: 0.5px solid #d8d8d8;
+  height: 5.25rem;
+  border-left: 0.03125rem solid #d8d8d8;
 }
 .section-one-people-online {
   border-radius: 50%;
-  border: 0.5px solid #d8d8d8;
+  border: 0.03125rem solid #d8d8d8;
 
-  width: 56px;
-  height: 56px;
+  width: 3.5rem;
+  height: 3.5rem;
   color: #28283d;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
   text-align: center;
 }
 
 .section-people-online p {
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1rem;
   color: #87879d;
-  width: 56px;
-  height: 56px;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 .people-pic-online {
   display: flex;
   flex-wrap: wrap;
-  width: 375px;
+  width: 23.4375rem;
 
-  padding: 64px 24px;
+  padding: 4rem 1.5rem;
 }
 
 .first-pic img {
-  width: 151px;
-  height: 143px;
-  border-radius: 8px;
-  margin-right: 21px;
-  margin-bottom: 24px;
+  width: 9.4375rem;
+  height: 8.9375rem;
+  border-radius: 0.5rem;
+  margin-right: 1.3125rem;
+  margin-bottom: 1.5rem;
 }
 
 .second-pic img {
-  width: 151px;
-  height: 143px;
-  border-radius: 8px;
+  width: 9.4375rem;
+  height: 8.9375rem;
+  border-radius: 0.5rem;
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .third-pic img {
-  height: 143px;
-  width: 151px;
-  border-radius: 8px;
-  margin-right: 21px;
+  height: 8.9375rem;
+  width: 9.4375rem;
+  border-radius: 0.5rem;
+  margin-right: 1.3125rem;
 }
 
 .fourth-pic img {
-  height: 143px;
-  width: 151px;
-  border-radius: 8px;
+  height: 8.9375rem;
+  width: 9.4375rem;
+  border-radius: 0.5rem;
 }
 
 .features-two {
   text-align: center;
-  padding: 0 24px;
+  padding: 0 1.5rem;
 }
 
 .features-two h2 {
   color: #4d96a9;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
   font-weight: 900;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .features-two h1 {
   color: #28283d;
-  font-size: 32px;
-  margin: 0 5px 32px 5px;
+  font-size: 2rem;
+  margin: 0 0.3125rem 2rem 5px;
   font-weight: 900;
 }
 
 .features-two p {
   color: #87879d;
-  font-size: 16px;
-  margin: 0 7px 64px 7px;
+  font-size: 1rem;
+  margin: 0 0.4375rem 4rem 7px;
   line-height: 1.5;
 }
 
 .number-two-vertical-line {
-  height: 84px;
-  border-left: 0.5px solid #d8d8d8;
+  height: 5.25rem;
+  border-left: 0.03125rem solid #d8d8d8;
+  
 }
 
 .section-number-two-experience {
   border-radius: 50%;
-  border: 0.5px solid #d8d8d8;
+  border: 0.03125rem solid #d8d8d8;
 
   background-color: #fafafa;
 
   width: 56px;
   height: 56px;
   color: #28283d;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
   text-align: center;
-  margin-bottom: -28px;
+  margin-bottom: -1.75rem;
 }
 
 .section-experience p {
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1rem;
   color: #87879d;
-  width: 56px;
-  height: 56px;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .features-three {
-  width: 375px;
+  width: 23.4375rem;
   margin: 0;
 }
 .features-three {
   background-image: url(./starter-code/assets/mobile/Bitmap.png);
   background-repeat: no-repeat;
-  padding: 92px 0 72px 0;
+  padding: 5.75rem 0 4.5rem 0;
   margin: 0;
 
   z-index: -1;
@@ -215,31 +227,31 @@ body {
   color: #fafafa;
   font-weight: 900;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .features-three p {
-  font-size: 18px;
-  margin: 0 24px;
+  font-size: 1.125rem;
+  margin: 0 1.5rem;
   line-height: 1.5;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   text-align: center;
   color: #fafafa;
 }
 
 .features-button {
   background: #855fb1;
-  border-radius: 40px;
-  width: 193px;
-  height: 58px;
-  padding: 16px 40px;
-  margin: 0 92px 0 92px;
+  border-radius: 2.5rem;
+  width: 12.0625rem;
+  height: 3.625rem;
+  padding: 1rem 2.5rem;
+  margin: 0 5.75rem 0 5.75rem;
 }
 
-.features-button button {
+ .btn-features {
   color: #ffffff;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   background: transparent;
   border: none;
@@ -250,63 +262,73 @@ body {
 }
 
 .bottom-pic img {
-  width: 375px;
-  position: absolute;
+  width: 23.4375rem;
 }
 
 /*Tablet*/
 
 @media screen and (min-width: 768px) {
+ 
   .people-pic img {
     width: 100vw;
   }
 
   .intro-section {
-    width: 475px;
+    width: 29.6875rem;
     height: auto;
-    margin-left: 155px;
+    margin-left: 9.6875rem;
   }
 
   .intro-heading {
-    font-size: 48px;
+    font-size: 3rem;
   }
 
   .main-paragraph {
-    font-size: 16px;
-    padding: 0 20px;
+    font-size: 1rem;
+    padding: 0 1.25rem;
   }
 
-  .bottoms {
+  .btn {
     display: flex;
+    gap: 16px ;
+    margin-left: 55px;
+    margin-bottom: 80px;
+    align-items: flex-end;
+     
   }
 
-  .download-button {
-    margin-right: 16px;
+  .download-btn {
+    margin-right: 0;
   }
 
-  .learn-more-button {
+  .btn-learn-more {
     margin: 0;
+    align-self: self-start;
   }
 
   .people-pic-online {
     width: auto;
-    padding: 67px 40px 48px 39px;
-    gap: 11px;
+    padding: 4.1875rem 2.5rem 3rem 39px;
+    gap: 0.6875rem;
   }
 
   .people-pic-online img {
-    width: 164px;
+    width: 10.25rem;
     height: auto;
     margin: 0;
   }
+  
+  .number-two-vertical-line {
+    margin-top: 5rem;
+  }
 
   .features-two {
-    width: 555px;
+    width: 34.6875rem;
     padding: 0;
   }
   .features-two h1 {
-    font-size: 40px;
-    padding: 0 40px;
+    font-size: 2.5rem;
+    padding: 0 2.5rem;
   }
 
   .features-two p {
@@ -321,79 +343,99 @@ body {
   }
 
   .features-three h1 {
-    padding: 0 192px;
-    font-size: 40px;
+    padding: 0 12rem;
+    font-size: 2.5rem;
   }
 
   .features-three p {
-    padding: 0 85px;
-    font-size: 18px;
+    padding: 0 5.3125rem;
+    font-size: 1.125rem;
   }
 
   .features-three .features-button {
-    margin: 0 288px;
+    margin: 0 18rem;
   }
 }
 
 /*Desktop*/
 
-@media screen and (min-width: 1224px)   {
-
- 
+@media screen and (min-width: 1224px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
   .people-pic img {
     display: none;
   }
 
   .head-page-desktop {
-    width: 1504px;
-    height: auto;
+    width: 94rem;
+    height: 18.9375rem;
     display: flex;
     justify-content: space-between;
+    
+   
   }
 
   .head-page-desktop .people-pic {
     content: url(./starter-code/assets/desktop/image-hero-left.png);
+   
   }
 
   .intro-section {
     margin: 0;
-    align-self: flex-end;
+    align-self: flex-start;
   }
   .intro-heading {
-    font-size: 64px;
+    font-size: 4rem;
   }
 
   .main-paragraph {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .people-pic-right {
     content: url(./starter-code/assets/desktop/image-hero-right.png);
+    
 
     justify-content: flex-end;
+  }
+
+
+  .btn-download :hover {
+    background-color: #71c0d4;
+    cursor: pointer;
+  }
+
+  .btn-learn-more :hover {
+    background-color: #b18bdd;
+    cursor: pointer;
+  }
+
+  .number-one-vertical-line {
+    margin-top: 5rem;
   }
 
   .people-pic-online {
     width: 100vw;
     justify-content: space-around;
-    padding: 64px 165px 80px 165px;
+    padding: 4rem 10.3125rem 5rem 165px;
   }
 
-  .people-pic-online .first-pic img{
-    width: 255px;
+  .people-pic-online .first-pic img {
+    width: 15.9375rem;
   }
 
-  .people-pic-online .second-pic img{
-    width: 255px;
-
+  .people-pic-online .second-pic img {
+    width: 15.9375rem;
   }
 
-  .people-pic-online .third-pic img{
-    width: 255px;
+  .people-pic-online .third-pic img {
+    width: 15.9375rem;
   }
 
-  .people-pic-online .fourth-pic img{
-    width: 255px;
+  .people-pic-online .fourth-pic img {
+    width: 15.9375rem;
   }
 
   .features-two {
@@ -401,61 +443,53 @@ body {
   }
 
   .features-two p {
-    width: 540px;
-    font-size: 18px;
+    width: 33.75rem;
+    font-size: 1.125rem;
   }
 
   .features-three {
     background-image: url(./starter-code/assets/desktop/Bitmap.png);
-     
+
     background-repeat: no-repeat;
-    
-    border: 1px solid blue;
   }
 
- 
-  .features-three   {
+  .features-three {
     display: flex;
     width: 100vw;
-   height: auto;
-    padding: 116px 165px 104px 165px;
-    
+    padding: 7.25rem 10.3125rem 6.5rem 165px;
+    height: 19.25rem;
+
     align-items: center;
-     
-   
-   
+    overflow: hidden;
   }
 
   .features-three h1 {
     padding: 0;
     text-align: left;
-    margin-right: 125px;
-    width: 350px;
+    margin-right: 7.8125rem;
+    width: 21.875rem;
   }
 
   .features-three p {
     padding: 0;
     text-align: left;
-    width: 350px;
-    margin-right: 92px;
+    width: 21.875rem;
+    margin-right: 5.75rem;
     margin-left: 0;
-    
-
   }
 
   .features-three .features-button {
-   margin: 0;
-   padding: 0;
-    
-   
-   
+    margin: 0;
+    padding: 0;
   }
 
- 
-
   .features-three .features-button button {
-    width: 193px ;
-   height: 58px;
+    width: 12.0625rem;
+    height: 3.625rem;
+  }
 
+  .btn-features:hover {
+    background-color: #b18bdd;
+     
   }
 }
