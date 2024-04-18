@@ -94,11 +94,11 @@ body {
 
 }
 
-.number-one-vertical-line {
+.vertical-line-section{
   height: 5.25rem;
   border-left: 0.03125rem solid #d8d8d8;
 }
-.section-one-people-online {
+.people-online-section{
   border-radius: 50%;
   border: 0.03125rem solid #d8d8d8;
 
@@ -109,13 +109,14 @@ body {
   text-align: center;
 }
 
-.section-people-online p {
+/*.section-people-online p {
   font-weight: 900;
   font-size: 1rem;
   color: #87879d;
   width: 3.5rem;
   height: 3.5rem;
-}
+}*/
+
 .people-pic-online {
   display: flex;
   flex-wrap: wrap;
@@ -153,12 +154,12 @@ body {
   border-radius: 0.5rem;
 }
 
-.features-two {
+.modern-use-features {
   text-align: center;
   padding: 0 1.5rem;
 }
 
-.features-two h2 {
+.modern-use-features h2 {
   color: #4d96a9;
   font-size: 1rem;
   text-transform: uppercase;
@@ -167,27 +168,27 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.features-two h1 {
+.modern-use-features h1 {
   color: #28283d;
   font-size: 2rem;
   margin: 0 0.3125rem 2rem 5px;
   font-weight: 900;
 }
 
-.features-two p {
+.modern-use-features p {
   color: #87879d;
   font-size: 1rem;
   margin: 0 0.4375rem 4rem 7px;
   line-height: 1.5;
 }
 
-.number-two-vertical-line {
+.vertical-line-items {
   height: 5.25rem;
   border-left: 0.03125rem solid #d8d8d8;
   
 }
 
-.section-number-two-experience {
+.experience-items {
   border-radius: 50%;
   border: 0.03125rem solid #d8d8d8;
 
@@ -199,9 +200,10 @@ body {
   padding: 0.9375rem 0;
   text-align: center;
   margin-bottom: -1.75rem;
+  z-index: 1;
 }
 
-.section-experience p {
+.experience-items p {
   font-weight: 900;
   font-size: 1rem;
   color: #87879d;
@@ -209,20 +211,20 @@ body {
   height: 3.5rem;
 }
 
-.features-three {
+.features-experience {
   width: 23.4375rem;
   margin: 0;
 }
-.features-three {
+.features-experience {
   background-image: url(./starter-code/assets/mobile/Bitmap.png);
   background-repeat: no-repeat;
   padding: 5.75rem 0 4.5rem 0;
   margin: 0;
 
-  z-index: -1;
+ 
 }
 
-.features-three h1 {
+.features-experience h1 {
   font-size: 32px;
   color: #fafafa;
   font-weight: 900;
@@ -230,7 +232,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.features-three p {
+.features-experience p {
   font-size: 1.125rem;
   margin: 0 1.5rem;
   line-height: 1.5;
@@ -318,41 +320,41 @@ body {
     margin: 0;
   }
   
-  .number-two-vertical-line {
+  .vertical-line-items {
     margin-top: 5rem;
   }
 
-  .features-two {
+  .modern-use-features {
     width: 34.6875rem;
     padding: 0;
   }
-  .features-two h1 {
+  .modern-use-features h1 {
     font-size: 2.5rem;
     padding: 0 2.5rem;
   }
 
-  .features-two p {
+  .modern-use-features p {
     text-align: center;
     margin: 0;
   }
 
-  .features-three {
+  .features-experience {
     background-image: url(./starter-code/assets/tablet/Bitmap.png);
     width: 100vw;
     background-repeat: no-repeat;
   }
 
-  .features-three h1 {
+  .features-experience h1 {
     padding: 0 12rem;
     font-size: 2.5rem;
   }
 
-  .features-three p {
+  .features-experience p {
     padding: 0 5.3125rem;
     font-size: 1.125rem;
   }
 
-  .features-three .features-button {
+  .features-experience .features-button {
     margin: 0 18rem;
   }
 }
@@ -412,7 +414,7 @@ body {
     cursor: pointer;
   }
 
-  .number-one-vertical-line {
+  .vertical-line-section {
     margin-top: 5rem;
   }
 
@@ -438,22 +440,22 @@ body {
     width: 15.9375rem;
   }
 
-  .features-two {
+  .modern-use-features {
     margin: 0;
   }
 
-  .features-two p {
+  .modern-use-features p {
     width: 33.75rem;
     font-size: 1.125rem;
   }
 
-  .features-three {
+  .features-experience {
     background-image: url(./starter-code/assets/desktop/Bitmap.png);
 
     background-repeat: no-repeat;
   }
 
-  .features-three {
+  .features-experience {
     display: flex;
     width: 100vw;
     padding: 7.25rem 10.3125rem 6.5rem 165px;
@@ -463,14 +465,14 @@ body {
     overflow: hidden;
   }
 
-  .features-three h1 {
+  .features-experience h1 {
     padding: 0;
     text-align: left;
     margin-right: 7.8125rem;
     width: 21.875rem;
   }
 
-  .features-three p {
+  .features-experience p {
     padding: 0;
     text-align: left;
     width: 21.875rem;
@@ -478,18 +480,19 @@ body {
     margin-left: 0;
   }
 
-  .features-three .features-button {
+  .features-experience .features-button {
     margin: 0;
     padding: 0;
   }
 
-  .features-three .features-button button {
+  .features-experience .features-button button {
     width: 12.0625rem;
     height: 3.625rem;
   }
 
   .btn-features:hover {
     background-color: #b18bdd;
-     
+    cursor: pointer;
+    border-radius: 2.5rem;
   }
 }
